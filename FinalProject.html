@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CakeZone</title>
+    <link rel="shortcut icon" href="../IMAGES/icon.PNG" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/FinalProject.css">
+</head>
+<body>
+    <div id="header">
+    <div id="title">
+     <h1><i class="fa-solid fa-cake-candles"> </i> CAKEZONE</h1>
+    </div>
+        <div id="email">
+            <h4><i class="fa-regular fa-envelope"></i> EMAIL US</h4>
+            <P>info@email.com</P>
+        </div>
+        <div id="call">
+            <h4><i class="fa-solid fa-phone-volume"></i> CALL US</h4>
+            <P>+044 657 7689</P>
+        </div>
+    </div>
+    <div id="nav">
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="../HTML/FinalProject.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#https://www.cakezone.com/theme-cake">MENU</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="orderlink">ORDER</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#masterchefs">MASTER CHEFS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">PAGES</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Our Service</a></li>
+              <li><a class="dropdown-item" href="#">Testimonial</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#endcard">CONTACT US</a>
+          </li>
+      </ul>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../IMAGES/cake.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5></h5>
+              <p></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../IMAGES/cake3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5></h5>
+              <p></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../IMAGES/cake4.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5></h5>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden"></span>
+        </button>
+        <div id="content">
+                <div id="back">
+                    <h3>Super Crispy</h3>
+                    <h1>CAKEZONE</h1>
+                    <h2>THE BEST CAKE IN LONDON</h2>
+                <div id="readmore"><a href="https://www.cakezone.com/set-reminders" id="">Read More</a></div>
+                <a href="" ><div id="play"></div></a>
+                <a href="https://youtu.be/YX6_JegYOi0" target="_blank"><div id="play2"><i class="fa-solid fa-play" id="playbutton" ></i></div></a>
+                </div>
+
+        </div>
+      </div>
+<div id="ordermain">
+<div id="order">
+    <div id="outer">
+       
+        <div>
+            <h1 style="text-align:center;color: white;font-size: 40px;">Order Items</h1>
+            <table>
+                <tr>
+                    <th>Flavors</th>
+                   <th>Price(Rs)</th> 
+                    <th>Quantity (Kgs)</th>
+                    <th>Amount</th>
+                </tr>
+                <tr>
+                    <td><label for="">1.Chocolate Cake</label></td>
+                    <td><input type="text" id="chocoprice" value="800" disabled></td>
+                    <td><select name="" id="chocoquantity" value="0"><option value="0" class="chocovalue">select</option>
+                      <option value="1" class="chocovalue">1 kg</option>
+                      <option value="2" class="chocovalue">2 kg</option>
+                      <option value="3" class="chocovalue">3 kg</option>
+                      <option value="4" class="chocovalue">4 kg</option>
+                      <option value="5" class="chocovalue">5 kg</option>
+                    </select></td>
+                    <td class="result" id="chocoresult"></td>
+                </tr>
+                <tr>
+                    <td><label for="">2.Vanilla Cake</label></td>
+                    <td><input type="text" id="vanniprice" value="700" disabled></td>
+                    <td><select name="" id="vanniquantity">
+                      <option value="0" class="vannivalue">select</option>
+                      <option value="1" class="vannivalue">1 kg</option>
+                      <option value="2" class="vannivalue">2 kg</option>
+                      <option value="3" class="vannivalue">3 kg</option>
+                      <option value="4" class="vannivalue">4 kg</option>
+                      <option value="5" class="vannivalue">5 kg</option>
+                    </select></td>
+                    <td class="result" id="vanniresult"></td>
+                </tr>
+                <tr>
+                    <td><label for="">3.Strawberry Cake</label></td>
+                    <td><input type="text" id="straprice" value="1000" disabled></td>
+                    <td><select name="" id="straquantity">
+                      <option value="0" class="stravalue">select</option>
+                      <option value="1" class="stravalue">1 kg</option>
+                      <option value="2" class="stravalue">2 kg</option>
+                      <option value="3" class="stravalue">3 kg</option>
+                      <option value="4" class="stravalue">4 kg</option>
+                      <option value="5" class="stravalue">5 kg</option>
+                    </select></td>
+                    <td class="result" id="straresult"></td>
+                </tr>
+                <tr>
+                    <td><label for="">4.Butterscotch Cake</label></td>
+                    <td><input type="text" id="butterprice" value="1000" disabled></td>
+                    <td><select name="" id="butterquantity">
+                      <option value="0" class="buttervalue">select</option>
+                      <option value="1" class="buttervalue">1 kg</option>
+                      <option value="2" class="buttervalue">2 kg</option>
+                      <option value="3" class="buttervalue">3 kg</option>
+                      <option value="4" class="buttervalue">4 kg</option>
+                      <option value="5" class="buttervalue">5 kg</option>
+                    </select></td>
+                    <td class="result" id="butterresult"></td>
+                </tr>
+                <tr>
+                    <td><label for="">5.Red velvet Cake</label></td>
+                    <td><input type="text" id="redprice" value="1100" disabled></td>
+                    <td><select name="" id="redquantity">
+                      <option value="0" class="redvalue">select</option>
+                      <option value="1" class="redvalue">1 kg</option>
+                      <option value="2" class="redvalue">2 kg</option>
+                      <option value="3" class="redvalue">3 kg</option>
+                      <option value="4" class="redvalue">4 kg</option>
+                      <option value="5" class="redvalue">5 kg</option>
+                    </select></td>
+                    <td class="result" id="redresult"></td>
+                </tr>
+                <tr>
+                    <td><label for="">6.Fruit Cake</label></td>
+                    <td><input type="text" id="fruitprice" value="900" disabled></td>
+                    <td><select name="" id="fruitquantity">
+                      <option value="0" class="fruitvalue">select</option>
+                      <option value="1" class="fruitvalue">1 kg</option>
+                      <option value="2" class="fruitvalue">2 kg</option>
+                      <option value="3" class="fruitvalue">3 kg</option>
+                      <option value="4" class="fruitvalue">4 kg</option>
+                      <option value="5" class="fruitvalue">5 kg</option>
+                    </select></td>
+                    <td class="result" id="fruitresult"></td>
+                </tr>
+                <tr>
+                    <td><label for="">7.Pineapple cake</label></td>
+                    <td><input type="text" id="pineprice" value="750" disabled></td>
+                    <td><select name="" id="pinequantity">
+                      <option value="0" class="pinevalue">select</option>
+                      <option value="1" class="pinevalue">1 kg</option>
+                      <option value="2" class="pinevalue">2 kg</option>
+                      <option value="3" class="pinevalue">3 kg</option>
+                      <option value="4" class="pinevalue">4 kg</option>
+                      <option value="5" class="pinevalue">5 kg</option>
+                    </select></td>
+                    <td class="result" id="pineresult"></td>
+                </tr>
+                <tr>
+                    <td><label for="">8.Rasmalai Cake cake</label></td>
+                    <td><input type="text" id="rasaprice" value="1300" disabled></td>
+                    <td><select name="" id="rasaquantity">
+                      <option value="0" class="rasavalue">select</option>
+                      <option value="1" class="rasavalue">1 kg</option>
+                      <option value="2" class="rasavalue">2 kg</option>
+                      <option value="3" class="rasavalue">3 kg</option>
+                      <option value="4" class="rasavalue">4 kg</option>
+                      <option value="5" class="rasavalue">5 kg</option>
+                    </select></td>
+                    <td class="result" id="rasaresult"></td>
+                </tr>
+            </table>
+            <div id="button"><button id="closeorder">Close</button><button id="confirmorder"> Confirm Order</button></div>
+        </div>  
+</div>
+</div>
+</div>
+<div id="confirmouter">
+    <div id="confirmmain">
+    <div id="image"><h1>Your Order Confirmed.... </h1>
+        <button id="ok">OK</button></div>    
+</div>
+</div>
+<div id="counting">
+  <table>
+    <tr>
+      <td>OUR EXPERIENCE</td>
+      <td>CAKE SPECIALIST</td>
+      <td>COMPLETE PROJECT</td>
+      <td>HAPPY CLIENTS</td>
+    </tr>
+    <tr>
+      <td class="count" id="star"></td>
+      <td class="count" id="person"></td>
+      <td class="count" id="tick"></td>
+      <td class="count" id="project"></td>
+    </tr>
+  </table>
+</div>
+<div id="masterchefs">
+  <div id="h1">
+<h1>MASTER CHEFS</h1>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="../IMAGES/chef1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Food Shop</h5>
+      <p class="card-text">Our roti is our exceptional dish, not only for it's taste but also for it's price. All of our dishes are of great quality with minimal cost to customers,which is the main reason for our service to be excellent</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="../IMAGES/chef2.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tej Foods And Snacks</h5>
+      <p class="card-text">Amaresh kanna works as chef more than 18 years in various field of restaurants.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  
+  <div class="card">
+    <img src="../IMAGES/chef3.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Ladder Survey Institute Of Technology</h5>
+      <p class="card-text">Ladder Survey Institute Of Technology has a vast experience providing high quality customized training.We use state-of-the-art technology Japanese laser Total Station Instrument with 95%practical training,with rich in Quality & Quantity Knowledge.We know the value of your money. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, eosquality customized training.We use state-of-the-art technology Japanese laser Total Station Instrument with 95%practical training,with rich in Quality & Quantity Knowledge.We know the value of your money. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, eos.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card" id="card1">
+      <div class="card-body">
+        <h5 class="card-title">BIRTHDAY CAKE</h5>
+        <p class="card-text">celebration. Birthday cakes are often layer cakes with frosting served with small lit candles on top representing the celebrant's age. Variations include cupcakes, cake pops, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis blanditiis explicabo numquam amet commodi, soluta minima perspiciatis aut ducimus maiores. pastries, and tarts. The cake is often decorated with birthday wishes ("Happy birthday") and the celebrant's name</p>
+        <a href="#https://www.igp.com/birthday-cakes" class="btn btn-primary">READ MORE</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card" id="card2">
+      <div class="card-body">
+        <h5 class="card-title">WEDDING CAKE</h5>
+        <p class="card-text">The cheers and wishes Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, minus! would be the highest when you’ll cut the cake for the next chapter of your life. This cake can have any beautiful design to make everyone appeal to its aesthetics, but only a small message can melt down your partner’s heart.
+          Unlike wedding cards and invitations, knowing what to write on the wedding cake in a small space can be difficult.</p>
+        <a href="#https://www.fnp.com/cakes/wedding-lp" class="btn btn-primary">READ MORE</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card" id="card3">
+      <div class="card-body">
+        <h5 class="card-title">CUSTOM CAKE</h5>
+        <p class="card-text">With supporting text Lorem ipsum dolor sit amet. below as a natural lead-in to additional content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse molestiae necessitatibus assumenda. Earum dolores nostrum nesciunt veniam. Minus quo animi soluta, fuga nemo commodi repudiandae laboriosam illo quam dolores sunt tempore rem repellendus sed consequuntur architecto aliquid cumque quisquam harum.</p>
+        <a href="#https://www.fnp.com/all-cakes-lp?gclid=Cj0KCQiAtvSdBhD0ARIsAPf8oNlURJfM_5ppJw2oheZ_Sbt-ppcLR1ZM_02e1ahqXbwAC87Asrkk8vQaAgPBEALw_wcB" class="btn btn-primary">READ MORE</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="endcard">
+<div id="endleft">
+  <h1><i class="fa-solid fa-cake-candles"> </i> CAKEZONE</h1>
+  <p>Lorem diam sit erat dolor elitr et, diam lorem justo labore amet clita labore stet eos magna sit. Elitr dolor eirmod duo tempor lorem, elitr clita ipsum sea. Nonumy rebum et takimata ea takimata amet gubergren, erat rebum magna lorem stet eos. Diam amet et kasd eos duo dolore no.Lorem diam sit erat dolor elitr et, diam lorem justo labore amet clita labore stet eos magna sit. Elitr dolor eirmod duo tempor lorem, elitr clita ipsum sea. Nonumy rebum et takimata ea takimata amet gubergren, erat rebum magna lorem stet eos. Diam amet et kasd eos duo dolore no.</p>
+</div>
+<div id="endright">
+<h1>GET IN TOUCH</h1>
+<br><br>
+<h3><i class="fa-solid fa-location-dot"></i> Tambaram,Chennai-600047</h3><br><br>
+<h3><i class="fa-regular fa-envelope-open"></i> cakezone@gmail.com</h3><br><br>
+<h3><i class="fa-solid fa-phone"></i> +044 675 8990</h3><br><br>
+</div>
+</div>
+
+<div id="social">
+  <div id="face"><a href="https://www.facebook.com/cakezonedelivery/"><i class="fa-brands fa-facebook"></i></a></div>
+  <div id="twit"><a href="https://mobile.twitter.com/cakezone__"><i class="fa-brands fa-twitter"></i></a></div>
+  <div id="insta"><a href="https://www.instagram.com/cakezonedelivery/?hl=en"><i class="fa-brands fa-instagram"></i></a></div>
+</div>
+     <script src="../JAVASCRIPT/FinalProject.js"></script>
+    <script src="https://kit.fontawesome.com/37d4bde185.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
